@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title> Home </title>
+{% endblock %}
+
+{% block body %}
+<main role="main">
+    <br>
+    <h1>Homepage</h1>
+    <br>
+    <div>
+        <div class="bg-light p-5 rounded">
+            <div class="col-sm-8 mx-auto">
+                <h1>Welcome</h1>
+                <p>Welcome to this dummy sample blog website. Now you will see some dummy texts. Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Qui doloremque mollitia quasi praesentium iusto odio, commodi
+                    iste dignissimos labore molestiae provident tempore ad aliquid, debitis error, odit est. Commodi,
+                    expedita.</p>
+                <p> Oh, this site is made with Flask. Thanks to AAron from Clever Programmers</p>
+                <p>
+                    <a class="btn btn-primary" href="/posts" role="button">View Posts
+                        &raquo;</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
