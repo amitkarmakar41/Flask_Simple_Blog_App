@@ -4,7 +4,7 @@ Flask_Simple_Blog_App is a simple blog app which is built using Flask and FlaskS
 Cheer!!!
 
 ## App Link: 
-
+https://flask-simple-blog-app.herokuapp.com/
 
 ## Project Level:
 Beginner
